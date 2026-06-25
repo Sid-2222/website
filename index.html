@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Siddhartha Biswas — Data Analyst Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <span class="nav-logo">SID<span class="accent">.</span></span>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact" class="nav-cta">Connect</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Connect</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="about">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-inner">
+      <div class="hero-text">
+        <h1 class="hero-name">Siddhartha<br /><span class="hero-name-accent">Biswas</span></h1>
+        <div class="hero-roles">
+          <span class="role-tag">Data Analyst</span>
+          <span class="role-tag">Analytics Engineer</span>
+          <span class="role-tag">Business Analyst</span>
+          <span class="role-tag">Data Engineer</span>
+          <span class="role-tag">Data Scientist</span>
+          <span class="role-tag">Business Intelligence</span>
+        </div>
+        <p class="hero-bio">
+          Result-driven engineer with 2+ years building Android apps and web platforms, now channeling that precision into data. I turn raw data into decisions using Python, SQL, and visualization — backed by an MCA from Jadavpur University and a track record of shipping things that work.
+        </p>
+        <div class="hero-cta-row">
+          <a href="#contact" class="btn-primary">Get In Touch</a>
+          <a href="#projects" class="btn-secondary">See My Work</a>
+        </div>
+        <div class="hero-meta">
+          <span>📍 Ventura, CA</span>
+          <span>🌐 EN · HI · BN</span>
+        </div>
+      </div>
+      <div class="hero-photo-wrap">
+        <div class="hero-photo-ring">
+          <img
+            src="sid.jpg"
+            alt="Siddhartha Biswas"
+            class="hero-photo"
+            onerror="this.parentElement.innerHTML='<div class=\'photo-placeholder\'>SID</div>'"
+          />
+        </div>
+        <div class="hero-photo-badge">
+          <span class="badge-dot"></span> Available Now
+        </div>
+      </div>
+    </div>
+    <div class="scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section skills-section" id="skills">
+    <div class="container">
+      <p class="section-eyebrow">What I Bring</p>
+      <h2 class="section-title">Skills &amp; Stack</h2>
+      <div class="skills-grid">
+        <div class="skill-card" data-delay="0">
+          <div class="skill-icon">📊</div>
+          <h3>Data & Analytics</h3>
+          <ul>
+            <li>Python (Pandas, NumPy)</li>
+            <li>SQL / SQLite</li>
+            <li>Data Visualization</li>
+            <li>Streamlit</li>
+            <li>Kaggle</li>
+          </ul>
+        </div>
+        <div class="skill-card" data-delay="100">
+          <div class="skill-icon">🌐</div>
+          <h3>Web Development</h3>
+          <ul>
+            <li>JavaScript</li>
+            <li>HTML / CSS</li>
+            <li>REST API / JSON</li>
+            <li>Git / GitHub</li>
+          </ul>
+        </div>
+        <div class="skill-card" data-delay="200">
+          <div class="skill-icon">📱</div>
+          <h3>Mobile & Backend</h3>
+          <ul>
+            <li>Android Studio</li>
+            <li>Java / XML</li>
+            <li>Google Firebase</li>
+            <li>RazorPay Integration</li>
+          </ul>
+        </div>
+        <div class="skill-card" data-delay="300">
+          <div class="skill-icon">🎨</div>
+          <h3>Tools & Design</h3>
+          <ul>
+            <li>Figma</li>
+            <li>AWS Foundations</li>
+            <li>Payment Gateway APIs</li>
+            <li>Curriculum Design</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section class="section exp-section" id="experience">
+    <div class="container">
+      <p class="section-eyebrow">Work History</p>
+      <h2 class="section-title">Experience</h2>
+      <div class="timeline">
+
+        <div class="timeline-item" data-delay="0">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <div>
+                <h3>Store Sales Specialist</h3>
+                <p class="timeline-company">REI Co-op · Washington, DC</p>
+              </div>
+              <span class="timeline-date">04/2024 – 01/2026</span>
+            </div>
+            <ul class="timeline-bullets">
+              <li>Serviced 50+ customers daily during peak recreation season with excellent satisfaction scores</li>
+              <li>Onboarded 10+ new Co-op members within first 90 days, exceeding targets</li>
+              <li>Delivered 100% technical knowledge across action sports &amp; camping departments</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-delay="100">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <div>
+                <h3>Web Developer</h3>
+                <p class="timeline-company">Love4Immigrants · Washington, DC</p>
+              </div>
+              <span class="timeline-date">01/2021 – 02/2025</span>
+            </div>
+            <ul class="timeline-bullets">
+              <li>Maintained and updated the organization's website with 100% accuracy in partnership with the founder</li>
+              <li>Supported special projects for an arts &amp; wellness non-profit amplifying immigrant narratives</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-delay="200">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <div>
+                <h3>Guest Lecturer &amp; Consultant</h3>
+                <p class="timeline-company">African Community Center DC · Washington, DC</p>
+              </div>
+              <span class="timeline-date">08/2024</span>
+            </div>
+            <ul class="timeline-bullets">
+              <li>Developed IT &amp; Computer Skills curriculum for resettled refugee clients in collaboration with ESL coordinator</li>
+              <li>Delivered half-day hands-on virtual training improving internet, data security, and computer literacy</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-delay="300">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <div>
+                <h3>Android Developer</h3>
+                <p class="timeline-company">Fusion TechLab · Kolkata, India</p>
+              </div>
+              <span class="timeline-date">04/2021 – 07/2021</span>
+            </div>
+            <ul class="timeline-bullets">
+              <li>Built a domestic money transfer app using Java/Android with UPI API integration</li>
+              <li>Integrated RazorPay to process 5,000+ daily payments reliably</li>
+              <li>Designed prepaid mobile recharge API feature, increasing app value by 20%</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-delay="400">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <div>
+                <h3>Android Developer</h3>
+                <p class="timeline-company">Genposys Technologies · Kolkata, India</p>
+              </div>
+              <span class="timeline-date">08/2019 – 08/2020</span>
+            </div>
+            <ul class="timeline-bullets">
+              <li>Built Flight API updates on existing apps using XML, REST API, and JSON</li>
+              <li>Implemented OTP login via Google Firebase, boosting application value by 15%</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Education & Certs -->
+      <div class="edu-grid">
+        <div class="edu-card">
+          <span class="edu-icon">🎓</span>
+          <div>
+            <h4>M.C.A. — Computer Applications</h4>
+            <p>Jadavpur University, Kolkata · 2013–2017</p>
+            <p class="edu-note">Ranked #30 Best Global Universities in India (US News)</p>
+          </div>
+        </div>
+        <div class="edu-card">
+          <span class="edu-icon">📜</span>
+          <div>
+            <h4>Data Engineering — Code the Dream</h4>
+            <p>Certificate of Completion · June 16, 2026</p>
+            <p class="edu-note">~220 hours · Python Essentials, Python Fundamentals, Web Scraping, Data Visualizations</p>
+          </div>
+        </div>
+        <div class="edu-card">
+          <span class="edu-icon">📜</span>
+          <div>
+            <h4>Web Development — Code the Dream</h4>
+            <p>HTML, JavaScript, CSS · Nov 2025 – Mar 2026</p>
+          </div>
+        </div>
+        <div class="edu-card">
+          <span class="edu-icon">☁️</span>
+          <div>
+            <h4>AWS Computer Foundations</h4>
+            <p>Computer &amp; Network Hardware · Feb 2024</p>
+          </div>
+        </div>
+        <div class="edu-card">
+          <span class="edu-icon">📱</span>
+          <div>
+            <h4>Android Professional Training</h4>
+            <p>eJob India, Kolkata · Jun – Aug 2019</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GITHUB REPOS -->
+  <section class="section repos-section" id="projects">
+    <div class="container">
+      <p class="section-eyebrow">Open Source</p>
+      <h2 class="section-title">GitHub Projects</h2>
+      <p class="section-sub">Pulling live from <a href="https://github.com/Sid-2222" target="_blank" rel="noopener" class="inline-link">github.com/Sid-2222</a></p>
+      <div class="repos-grid" id="reposGrid">
+        <div class="repo-loading">
+          <div class="loading-spinner"></div>
+          <p>Fetching repositories…</p>
+        </div>
+      </div>
+      <div class="repos-footer">
+        <a href="https://github.com/Sid-2222?tab=repositories" target="_blank" rel="noopener" class="btn-secondary">
+          View All on GitHub →
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section contact-section" id="contact">
+    <div class="container">
+      <p class="section-eyebrow">Let's Connect</p>
+      <h2 class="section-title">Send Me a Message</h2>
+      <p class="section-sub">I'm actively looking for entry-level data roles. If you have an opportunity or just want to say hello, my inbox is open.</p>
+
+      <div class="contact-wrap">
+        <div class="contact-info">
+          <div class="contact-item">
+            <span class="contact-icon">📧</span>
+            <div>
+              <p class="contact-label">Email</p>
+              <a href="mailto:hisiddhartha21@gmail.com">hisiddhartha21@gmail.com</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon">💼</span>
+            <div>
+              <p class="contact-label">LinkedIn</p>
+              <a href="https://linkedin.com/in/" target="_blank" rel="noopener">LinkedIn Profile</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon">🐙</span>
+            <div>
+              <p class="contact-label">GitHub</p>
+              <a href="https://github.com/Sid-2222" target="_blank" rel="noopener">github.com/Sid-2222</a>
+            </div>
+          </div>
+        </div>
+
+        <form class="contact-form" id="contactForm" action="https://formspree.io/f/mdarejzw" method="POST">
+          <input type="hidden" name="_subject" value="New message from portfolio site" />
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" name="name" placeholder="Jane Smith" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Your Email</label>
+              <input type="email" id="email" name="email" placeholder="jane@company.com" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="Data Analyst Opportunity at Acme Co." required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell me about the role or project…" required></textarea>
+          </div>
+          <button type="submit" class="btn-primary btn-full" id="submitBtn">
+            Send Message
+          </button>
+          <p class="form-note" id="formStatus"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span class="nav-logo">SID<span class="accent">.</span></span>
+      <p>© 2026 Siddhartha Biswas · Built with HTML, CSS &amp; JavaScript</p>
+      <div class="footer-links">
+        <a href="https://github.com/Sid-2222" target="_blank" rel="noopener">GitHub</a>
+        <a href="mailto:hisiddhartha21@gmail.com">Email</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
