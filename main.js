@@ -204,3 +204,5 @@ const sectionObserver = new IntersectionObserver((entries) => {
 }, { rootMargin: '-40% 0px -55% 0px' });
 
 sections.forEach(s => sectionObserver.observe(s));
+
+document.getElementById("year").textContent = new Date().getFullYear();
